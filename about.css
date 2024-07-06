@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.john{
+    overflow:hidden;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.6;
+    /* padding: 20px; */
+    position: fixed;
+}
+.nowpar2{
+    display: flex;
+    gap: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:white;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 207.6vh;
+    padding: 20px;
+    background-color: rgba(123, 111, 190, 0.2);
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    width:200px;
+    /* height: 50px; */
+    margin-left: 15px;
+    transform: translate(2s);
+    animation: log 2s 1;
+}
+@keyframes log{
+    from{
+     transform: translatey(-100%);
+    }
+    to{
+     transform: translatey(0);
+    }
+}
+
+.logo2{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    transform: 1s ;
+    transform: translate(2s);
+    animation: log1 2s 1;
+}
+@keyframes log1{
+    from{
+     transform: translatex(100%);
+    }
+    to{
+     transform: translatex(0%);
+    }
+}
+h3:hover{
+    color:brown;
+    transition: all 1s;
+    background-color: pink;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid red;
+    box-shadow: 1px 1px 10px 1px red ;
+}
+a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    cursor: pointer;
+    padding: 8px 10px;
+    display: block;
+    margin-top: 0.5px;
+}
+.circul{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    top: 250px;
+    left: 480px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    animation: circles 3s 1;
+    transform: translate(2s);
+    transition: all 2s;
+}
+@keyframes circles{
+
+    0%{
+        opacity: 0.5;
+        /* transform: translatey(0px); */
+        transform: rotate(0deg);
+    }
+    50%{
+        opacity: 0.7;
+        /* transform: translatey(250px); */
+        transform: rotate(360deg);
+    }
+    100%{
+        opacity: 1;
+        /* transform: translatey(480px); */
+        transform: rotate(360deg);
+    }
+}
+
+h1{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+h2{
+    color:white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.icon1{
+    position: relative;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.idem1{
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    animation: ideam1 2s 1;
+    transform: translate(2s);
+}
+@keyframes ideam1{
+
+    from{
+        transform: translatex(0%);
+        position: unset;
+    }
+    to{
+        transform: translatex(100%); 
+        position: unset;  
+    }
+}
+.idem2{
+    position: absolute;
+    top: 320px;
+    left: 210px;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    animation: ideam1 2s 1;
+    transform: translate(2s);
+}
+.idem3{
+    position: absolute;
+    top: 530px;
+    left: 330px;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    animation: ideam1 2s 1;
+    transform: translate(2s);
+}
+.idem4{
+    position: absolute;
+    top: 90px;
+    right: 400px;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    animation: ideam1 2s 1;
+    transform: translate(2s);
+}
+.idem5{
+    position: absolute;
+    top: 320px;
+    right: 300px;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    animation: ideam1 2s 1;
+    transform: translate(2s);
+}
+.idem6{
+    position: absolute;
+    top: 530px;
+    right: 420px;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    animation: ideam1 2s 1;
+    transform: translate(2s);
+}
